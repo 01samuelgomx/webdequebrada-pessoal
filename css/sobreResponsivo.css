@@ -1,0 +1,37 @@
+    .pgSobre h2{
+        margin-left: 30px;
+    }
+
+
+    .colaboradores h2{
+        margin-left: 30px;
+    }
+
+    .imgColaboradores {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .imgColaboradores div{
+        margin: 10px 0 10px 0;
+    }
+
+    .imgColaboradores div img{
+        width: 200px;
+        height: 300px;
+    }
+
+    .imgColaboradores p {
+        text-align: center;
+        font-family: var(--fonte-primaria);
+        font-size: 1.2rem;
+        position: relative;
+        left: 50px;
+        width: 110px;
+        border-radius: 50px;
+        bottom: 40px;
+        background-color: var(--white);
+        text-transform: uppercase;
+    }
